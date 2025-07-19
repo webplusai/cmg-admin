@@ -1,1 +1,1 @@
-# immoshoot-admin
+# cmg-admin
