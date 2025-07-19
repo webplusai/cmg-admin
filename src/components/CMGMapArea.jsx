@@ -24,7 +24,7 @@ const CMGMap = () => {
   const [isGreaterThan800] = useMediaQuery('(min-width: 800px)')
   const [isFetching, setIsFetching] = useState(false);
   const [coords, setCoords] = useState()
-  const [center, setCenter] = useState({ lat: 0, lng: 0 });
+  const [center, setCenter] = useState({ lat: 48.8566, lng: 2.3522 });
   const [zoom, setZoom] = useState(3)
 
   const showSpaceInfo = (space) => {
