@@ -25,7 +25,7 @@ const CMGMap = () => {
   const [isFetching, setIsFetching] = useState(false);
   const [coords, setCoords] = useState()
   const [center, setCenter] = useState({ lat: 48.8566, lng: 2.3522 });
-  const [zoom, setZoom] = useState(10)
+  const [zoom, setZoom] = useState(12)
 
   const showSpaceInfo = (space) => {
     setSpace(space);
